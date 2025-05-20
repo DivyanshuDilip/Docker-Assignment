@@ -30,5 +30,10 @@ Docker Container:
 
 Ans: Kubernetes complements Docker by efficiently managing and orchestrating containers, especially when running large-scale applications with hundreds of containers. It automates the deployment and scaling of containers based on real-time usage and traffic. Kubernetes also ensures high availability through self-healing—automatically restarting containers that fail. It enables smooth updates without downtime and supports automatic rollback if something goes wrong. Additionally, Kubernetes provides built-in service discovery and load balancing, making it easier to manage traffic across services. It securely handles sensitive data like API keys and can run applications consistently across multiple cloud providers or on-premises environments.
 
+Assignment Link:
+http://localhost:8080/
+![image](https://github.com/user-attachments/assets/e6a2292a-fb2c-4631-b448-1b24960d85e8)
+
+
 
 
