@@ -3,11 +3,11 @@ Resources created
 Deployment (my-app) running Nginx pods
 Services:
 ClusterIP (my-app-clusterip) — Internal-only access
-NodePort (my-app-nodeport) — Access on node IP and port 30036
+NodePort (my-app-nodeport) — Access on node IP and port 30080
 Ingress (my-app-ingress) — Routes /app path on host myapp.local to the ClusterIP service
 Testing
 ClusterIP tested with kubectl port-forward
-NodePort accessible via http://<NodeIP>:30036
+NodePort accessible via http://<NodeIP>:30080
 Ingress accessible via http://myapp.local/app (requires ingress controller and host entry)
 
 Core Concept Questions
