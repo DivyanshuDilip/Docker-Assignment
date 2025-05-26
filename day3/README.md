@@ -9,7 +9,9 @@ Testing
 ClusterIP tested with kubectl port-forward
 NodePort accessible via http://<NodeIP>:30036
 Ingress accessible via http://myapp.local/app (requires ingress controller and host entry)
+
 Core Concept Questions
+
 1. How would you expose an internal microservice (e.g., user-auth) differently than a public-facing frontend?
 Internal microservices like user-auth are exposed via ClusterIP services, which are only accessible inside the cluster. This limits their exposure and improves security. Public-facing frontends are exposed using NodePort, LoadBalancer, or Ingress resources that allow external traffic access with appropriate routing and load balancing.
 
